@@ -2,12 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/pleiades/eclipse/plugins/jblas/jblas-1.2.3-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="C:/aparapi-master/dist_windows_x86_64/aparapi.jar"/>
 	<classpathentry kind="lib" path="C:/pleiades/eclipse/plugins/universal-java-matrix-package/ujmp-complete-0.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/pleiades/eclipse/plugins/org.apache.commons.StringUtils/commons-lang3-3.5.jar"/>
 	<classpathentry kind="lib" path="C:/pleiades/eclipse/plugins/org.apache.commons.StringUtils/commons-lang3-3.5-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/pleiades/eclipse/plugins/nd4j/nd4j-api/0.7.3-SNAPSHOT/nd4j-api-0.7.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/pleiades/eclipse/plugins/jblas/1.2.4/jblas-1.2.4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://www.jblas.org/javadoc/index.html"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/MT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
