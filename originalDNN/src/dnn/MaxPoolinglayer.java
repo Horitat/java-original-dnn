@@ -128,6 +128,7 @@ public class MaxPoolinglayer {
 								float d = 0.f;
 								//System.out.println(n+":"+kernel+":"+(poolkernelsize[0]*i+s)+":"+(poolkernelsize[1]*j+t));
 								if(y[n][kernel][i][j] == x[n][kernel][poolkernelsize[0]*i+s][poolkernelsize[1]*j+t]){
+									//活性化関数があれば活性化関数の微分を行う
 									d = dy[n][kernel][i][j];
 								}
 								back[n][kernel][poolkernelsize[0]*i+s][poolkernelsize[1]*j+t] = d;

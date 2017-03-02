@@ -240,6 +240,7 @@ public class Logistic_kaiki {
 
 	/**
 	 * 出力層のトレーニングメッソド。結果に基づきパラメータ更新
+	 * Softmax-crossentropy
 	 * @param data 入力データ
 	 * @param label 正解ラベル
 	 * @param minibatchsize ミニバッチサイズ
